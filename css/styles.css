@@ -19,12 +19,6 @@ body{
     color: var(--main-black);
     margin: 0px auto;
 }
-/* *,
-*::before,
-*::after {
-    content: "";
-    box-sizing: border-box;
-} */
 
 h1,
 h2,
@@ -115,8 +109,7 @@ img{
     align-items: center;
     }
 .header-nav:hover,
-.header-nav:focus
-{
+.header-nav:focus{
     font-family: var(--text-font);
     font-size: 14px;
     font-weight: 500;
@@ -138,6 +131,8 @@ img{
     list-style: none;
     text-decoration: none;
     color: var(--main-black);
+
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-nav-item:hover,
 .header-nav-item:focus{
@@ -160,6 +155,8 @@ img{
     line-height: 1.143;
     color: var(--main-grey);
     fill: var(--main-grey);
+
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 .header-contacts-item:hover,
 .header-contacts-item:focus{
@@ -257,6 +254,8 @@ img{
 
     height: 38px;
     padding: 6px 22px;
+
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 .buttons:hover,
 .buttons:focus{
@@ -291,6 +290,8 @@ img{
 }
 .pictures-menu-item{
     background: var(--white);
+
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
       }
 .pictures-menu-item:hover,
 .pictures-menu-item:focus{
@@ -458,6 +459,8 @@ img{
     height: 44px;
     background-color: var(--white);
     border-radius: 50%;
+
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-link:hover,
 .social-list-link:focus{
@@ -471,10 +474,7 @@ img{
     width: 20px;
     height: 20px;
 }
-.social-icon:hover,
-.social-icon:focus{
-    fill: var(--white);
-}
+
 /* Nasi klienci */
 .clients{}
 
@@ -493,6 +493,8 @@ img{
     border: 1px solid var(--icon-grey);
     border-radius: 4px;
     fill: var(--icon-grey);
+
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover,
@@ -549,6 +551,7 @@ img{
     letter-spacing: 3%;
     line-height: 1.714;
 
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-link:hover,
 .footer-link:focus{
@@ -601,6 +604,8 @@ img{
     height: 44px;
     background-color: var(--brand-blue);
     border-radius: 50%;
+
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-icon{
     fill: var(--white);
