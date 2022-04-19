@@ -131,6 +131,7 @@ img{
     list-style: none;
     text-decoration: none;
     color: var(--main-black);
+    position: relative;
 
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -144,11 +145,17 @@ img{
 .header-nav-underline::after{
     content: "";
     height: 4px;
-    width: 53px;
+    width: 100%;
     background-color: var(--brand-blue);
     display: block;
-    margin-top: 28px;
-    margin-bottom: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    border-radius: 2px;
+
+    transform: translateY(33px);
+}
+.header-nav-underline{
     color: var(--brand-blue);
 }
 .header-contacts{
